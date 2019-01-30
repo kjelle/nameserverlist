@@ -1,0 +1,11 @@
+msn.com
+google.com
+mozilla.net
+mozilla.org
+ebay.com
+live.net
+msedge.net
+amazonaws.com
+skype.com
+bing.net
+isc.org

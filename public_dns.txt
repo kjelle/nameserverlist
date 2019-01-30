@@ -1,0 +1,114 @@
+# ----
+# https://www.lifewire.com/free-and-public-dns-servers-2626062
+# ----
+
+#
+# Manual list of public DNS servers to add to the list.
+#
+
+# https://developers.google.com/speed/public-dns/
+google-public-dns-a.google.com,google
+google-public-dns-b.google.com,google
+
+# https://www.verisign.com/en_US/security-services/public-dns/index.xhtml
+recpubns1.nstld.net,google
+recpubns2.nstld.net,google
+
+# CenturyLink 
+resolver1.level3.net,centurylink
+resolver2.level3.net,centurylink
+resolver3.level3.net,centurylink
+resolver4.level3.net,centurylink
+
+# Quad9
+dns.quad9.net,quad9
+rpz-public-resolver1.rrdns.pch.net,quad9
+rpz-public-resolver2.rrdns.pch.net,quad9
+
+# DNS.WATCH
+resolver1.ihgip.net,dnswatch
+resolver2.ihgip.net,dnswatch
+
+# Comodo Secure DNS: https://www.comodo.com/secure-dns/
+# TODO: 8.26.56.8 - 8.20.247.20 ?
+ns1.recursive.dnsbycomodo.com,comodo
+ns2.recursive.dnsbycomodo.com,comodo
+
+# OpenDNS
+resolver1.opendns.com,cisco,opendns
+resolver2.opendns.com,cisco,opendns
+
+# GreenTeamNS
+# PTR doesn't look correct, ignoring.
+
+# SafeDNS
+dns1.safedns.com,safedns
+dns2.safedns.com,safedns
+
+# OpenNIC
+ns0.backplanedns.org,opennic
+ns1.backplanedns.org,opennic
+
+# SmartViper
+208.76.50.50,smartviper
+208.76.51.51,smartviper
+
+# Dyn (DNS): https://help.dyn.com/internet-guide-setup/
+resolver1.dyndnsinternetguide.com,dyn
+resolver2.dyndnsinternetguide.com,dyn
+
+# FreeDNS: https://freedns.zone/en/
+45.33.97.5,freedns
+37.235.1.177,freedns
+37.235.1.174,freedns
+172.104.49.100,freedns
+172.104.237.57,freedns
+ 
+# Cloudflare: https://1.1.1.1/
+one.one.one.one,cloudflare
+
+#
+# Norwegian public DNS
+# https://support.syse.eu/hc/no/articles/200690881-Navnetjenere-DNS-servere-for-norske-Internettleverand%C3%B8rer
+#
+
+# TDCNorge
+ns2.tele.dk,tdc
+ns3.tele.dk,tdc
+ns1-1.tdcnorge.no,tdc
+ns1-2.tdcnorge.no,tdc
+ns2-1.tdcnorge.no,tdc
+ns2-2.tdcnorge.no,tdc
+
+# Altibox
+dns-site-a.altibox.no,altibox
+dns-site-b.altibox.no,altibox
+
+# Telenor
+148.122.208,telenor
+148.122.161.3,telenor
+ns10.e.nsc.no,telenor
+ns11.e.nsc.no,telenor,canaldigital
+ns12.e.nsc.no,telenor,canaldigital
+ns13.e.nsc.no,telenor
+ns14.e.nsc.no,telenor
+ns15.e.nsc.no,telenor
+ns16.e.nsc.no,telenor
+ns17.e.nsc.no,telenor
+
+# NextGenTel
+dns03.nextgentel.net,nextgentel
+dns04.nextgentel.net,nextgentel
+dns05.nextgentel.net,nextgentel
+
+# Get
+dnscache01.get.no,get
+dnscache02.get.no,get
+
+# PowerTech
+ns1.powertech.no,powertech
+ns2.powertech.no,powertech
+
+# Broadnet
+193.75.75.75,broadnet
+193.75.75.193,broadnet
