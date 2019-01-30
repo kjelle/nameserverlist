@@ -9,3 +9,8 @@ amazonaws.com
 skype.com
 bing.net
 isc.org
+fortinet.com
+facebook.com
+microsoft.com
+fastly.net
+linpro.net
