@@ -88,7 +88,9 @@ ns3-201.azure-dns.org,azure,
 
 
 # Fortinet
-# PRR is fortinet-public-dns-53.fortinet.com, but it doesnt have a A record.
+# PTR fortinet-public-dns-52.fortinet.com
+208.91.112.52,fortinet
+# PRR fortinet-public-dns-53.fortinet.com
 208.91.112.53,fortinet
 
 # Amazon
@@ -98,6 +100,7 @@ g-ns-1030.awsdns-03.org,amazon
 g-ns-1603.awsdns-03.org,amazon
 ns-1053.awsdns-03.org,amazon
 ns-1119.awsdns-11.org,amazon
+ec2-18-153-1-63.eu-central-1.compute.amazonaws.com,amazon
 
 # DigitalOcean
 ns1.digitalocean.com,digitalocean
@@ -120,10 +123,26 @@ ns3.msft.net,microsoft
 ns4.msft.net,microsoft
 ns5.msft.net,microsoft
 
+# Apple
+a.gslb.aaplimg.com,apple
+b.gslb.aaplimg.com,apple
+
+# Nameservers for IP6.ARPA
+# https://tools.ietf.org/html/rfc5855
+A.IP6-SERVERS.ARPA,arpa
+B.IP6-SERVERS.ARPA,arpa
+C.IP6-SERVERS.ARPA,arpa
+D.IP6-SERVERS.ARPA,arpa
+E.IP6-SERVERS.ARPA,arpa
+F.IP6-SERVERS.ARPA,arpa
+
 # Linpro
 ns-foo.linpro.net,linpro
 ns-bar.linpro.net,linpro
 ns-zoo.linpro.net,linpro
+ns-bar.i.bitbit.net,linpro
+ns-zoo.i.bitbit.net,linpro
+ns-foo.i.bitbit.net,linpro
 
 # Mailshell
 #dnsbl7.mailshell.net
@@ -193,6 +212,16 @@ ns-zoo.linpro.net,linpro
 # https://www.dummies.com/programming/networking/network-administration-root-servers/
 128.8.10.90,nsroot,old
 128.63.2.53,nsroot,old
+
+# ftp://ftp.wayne.edu/ldp/en/DNS-HOWTO/DNS-HOWTO-3.html
+128.9.0.107,nsroot,old
+
+# IANA Blackhole, e.g. NXDOMAIN
+# https://www.iana.org/help/abuse-answers
+# https://en.wikipedia.org/wiki/Blackhole_server
+192.175.48.6,iana,blackhole
+192.175.48.42,iana,blackhole
+192.175.48.1,iana,blackhole
 
 #
 # Norwegian public DNS

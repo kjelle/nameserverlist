@@ -6,8 +6,8 @@
 {"fqdn":"resolver2.level3.net","ip":"209.244.0.4","ns":"public","tags":"centurylink"}
 {"fqdn":"resolver3.level3.net","ip":"216.136.95.2","ns":"public","tags":"centurylink"}
 {"fqdn":"resolver4.level3.net","ip":"64.132.94.250","ns":"public","tags":"centurylink"}
-{"fqdn":"dns.quad9.net","ip":"9.9.9.9","ns":"public","tags":"quad9"}
 {"fqdn":"dns.quad9.net","ip":"149.112.112.112","ns":"public","tags":"quad9"}
+{"fqdn":"dns.quad9.net","ip":"9.9.9.9","ns":"public","tags":"quad9"}
 {"fqdn":"rpz-public-resolver1.rrdns.pch.net","ip":"149.112.112.112","ns":"public","tags":"quad9"}
 {"fqdn":"rpz-public-resolver2.rrdns.pch.net","ip":"149.112.149.112","ns":"public","tags":"quad9"}
 {"fqdn":"resolver1.ihgip.net","ip":"84.200.69.80","ns":"public","tags":"dnswatch"}
@@ -29,8 +29,8 @@
 {"fqdn":"","ip":"37.235.1.174","ns":"public","tags":"freedns"}
 {"fqdn":"","ip":"172.104.49.100","ns":"public","tags":"freedns"}
 {"fqdn":"","ip":"172.104.237.57","ns":"public","tags":"freedns"}
-{"fqdn":"one.one.one.one","ip":"1.0.0.1","ns":"public","tags":"cloudflare"}
 {"fqdn":"one.one.one.one","ip":"1.1.1.1","ns":"public","tags":"cloudflare"}
+{"fqdn":"one.one.one.one","ip":"1.0.0.1","ns":"public","tags":"cloudflare"}
 {"fqdn":"a1-128.akadns.net","ip":"193.108.88.128","ns":"public","tags":"akamai"}
 {"fqdn":"a11-129.akadns.net","ip":"84.53.139.129","ns":"public","tags":"akamai"}
 {"fqdn":"a12-131.akadns.org","ip":"184.26.160.131","ns":"public","tags":"akamai"}
@@ -46,6 +46,7 @@
 {"fqdn":"ns1prod.arpa-201.azuredns-prd.info","ip":"13.107.24.201","ns":"public","tags":"azure"}
 {"fqdn":"ns2prod.arpa-201.azuredns-prd.info","ip":"13.107.160.201","ns":"public","tags":"azure"}
 {"fqdn":"ns3-201.azure-dns.org","ip":"13.107.24.201","ns":"public","tags":"azure,"}
+{"fqdn":"","ip":"208.91.112.52","ns":"public","tags":"fortinet"}
 {"fqdn":"","ip":"208.91.112.53","ns":"public","tags":"fortinet"}
 {"fqdn":"g-ns-131.awsdns-03.org","ip":"205.251.192.131","ns":"public","tags":"amazon"}
 {"fqdn":"g-ns-709.awsdns-03.org","ip":"205.251.194.197","ns":"public","tags":"amazon"}
@@ -53,6 +54,7 @@
 {"fqdn":"g-ns-1603.awsdns-03.org","ip":"205.251.198.67","ns":"public","tags":"amazon"}
 {"fqdn":"ns-1053.awsdns-03.org","ip":"205.251.196.29","ns":"public","tags":"amazon"}
 {"fqdn":"ns-1119.awsdns-11.org","ip":"205.251.196.95","ns":"public","tags":"amazon"}
+{"fqdn":"ec2-18-153-1-63.eu-central-1.compute.amazonaws.com","ip":"18.153.1.63","ns":"public","tags":"amazon"}
 {"fqdn":"ns1.digitalocean.com","ip":"173.245.58.51","ns":"public","tags":"digitalocean"}
 {"fqdn":"ns2.digitalocean.com","ip":"173.245.59.41","ns":"public","tags":"digitalocean"}
 {"fqdn":"ns3.digitalocean.com","ip":"198.41.222.173","ns":"public","tags":"digitalocean"}
@@ -68,9 +70,20 @@
 {"fqdn":"ns3.msft.net","ip":"193.221.113.53","ns":"public","tags":"microsoft"}
 {"fqdn":"ns4.msft.net","ip":"208.76.45.53","ns":"public","tags":"microsoft"}
 {"fqdn":"ns5.msft.net","ip":"65.55.226.140","ns":"public","tags":"microsoft"}
+{"fqdn":"a.gslb.aaplimg.com","ip":"17.253.201.8","ns":"public","tags":"apple"}
+{"fqdn":"b.gslb.aaplimg.com","ip":"17.253.206.8","ns":"public","tags":"apple"}
+{"fqdn":"a.ip6-servers.arpa","ip":"199.180.182.53","ns":"public","tags":"arpa"}
+{"fqdn":"b.ip6-servers.arpa","ip":"199.253.182.182","ns":"public","tags":"arpa"}
+{"fqdn":"c.ip6-servers.arpa","ip":"196.216.169.11","ns":"public","tags":"arpa"}
+{"fqdn":"d.ip6-servers.arpa","ip":"200.7.86.53","ns":"public","tags":"arpa"}
+{"fqdn":"e.ip6-servers.arpa","ip":"203.119.86.101","ns":"public","tags":"arpa"}
+{"fqdn":"f.ip6-servers.arpa","ip":"193.0.9.2","ns":"public","tags":"arpa"}
 {"fqdn":"ns-foo.linpro.net","ip":"87.238.32.254","ns":"public","tags":"linpro"}
 {"fqdn":"ns-bar.linpro.net","ip":"87.238.39.51","ns":"public","tags":"linpro"}
 {"fqdn":"ns-zoo.linpro.net","ip":"69.164.207.59","ns":"public","tags":"linpro"}
+{"fqdn":"ns-bar.i.bitbit.net","ip":"87.238.39.51","ns":"public","tags":"linpro"}
+{"fqdn":"ns-zoo.i.bitbit.net","ip":"69.164.207.59","ns":"public","tags":"linpro"}
+{"fqdn":"ns-foo.i.bitbit.net","ip":"87.238.32.254","ns":"public","tags":"linpro"}
 {"fqdn":"","ip":"173.255.254.232","ns":"public","tags":"clearswift"}
 {"fqdn":"","ip":"198.58.97.43","ns":"public","tags":"clearswift"}
 {"fqdn":"","ip":"88.80.184.106","ns":"public","tags":"clearswift"}
@@ -128,6 +141,10 @@
 {"fqdn":"","ip":"178.79.150.32","ns":"public","tags":"clearswift"}
 {"fqdn":"","ip":"128.8.10.90","ns":"public","tags":"nsroot,old"}
 {"fqdn":"","ip":"128.63.2.53","ns":"public","tags":"nsroot,old"}
+{"fqdn":"","ip":"128.9.0.107","ns":"public","tags":"nsroot,old"}
+{"fqdn":"","ip":"192.175.48.6","ns":"public","tags":"iana,blackhole"}
+{"fqdn":"","ip":"192.175.48.42","ns":"public","tags":"iana,blackhole"}
+{"fqdn":"","ip":"192.175.48.1","ns":"public","tags":"iana,blackhole"}
 {"fqdn":"ns2.tele.dk","ip":"194.239.134.82","ns":"public","tags":"tdc"}
 {"fqdn":"ns3.tele.dk","ip":"194.239.134.83","ns":"public","tags":"tdc"}
 {"fqdn":"ns1-1.tdcnorge.no","ip":"80.232.41.10","ns":"public","tags":"tdc"}
