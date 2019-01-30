@@ -29,8 +29,8 @@
 {"fqdn":"","ip":"37.235.1.174","ns":"public","tags":"freedns"}
 {"fqdn":"","ip":"172.104.49.100","ns":"public","tags":"freedns"}
 {"fqdn":"","ip":"172.104.237.57","ns":"public","tags":"freedns"}
-{"fqdn":"one.one.one.one","ip":"1.1.1.1","ns":"public","tags":"cloudflare"}
 {"fqdn":"one.one.one.one","ip":"1.0.0.1","ns":"public","tags":"cloudflare"}
+{"fqdn":"one.one.one.one","ip":"1.1.1.1","ns":"public","tags":"cloudflare"}
 {"fqdn":"a1-128.akadns.net","ip":"193.108.88.128","ns":"public","tags":"akamai"}
 {"fqdn":"a11-129.akadns.net","ip":"84.53.139.129","ns":"public","tags":"akamai"}
 {"fqdn":"a12-131.akadns.org","ip":"184.26.160.131","ns":"public","tags":"akamai"}
@@ -45,7 +45,7 @@
 {"fqdn":"ns2prod.arpa-201.azuredns-prd.org","ip":"64.4.48.201","ns":"public","tags":"azure"}
 {"fqdn":"ns1prod.arpa-201.azuredns-prd.info","ip":"13.107.24.201","ns":"public","tags":"azure"}
 {"fqdn":"ns2prod.arpa-201.azuredns-prd.info","ip":"13.107.160.201","ns":"public","tags":"azure"}
-{"fqdn":"ns3-201.azure-dns.org","ip":"13.107.24.201","ns":"public","tags":"azure,"}
+{"fqdn":"ns3-201.azure-dns.org","ip":"13.107.24.201","ns":"public","tags":"azure"}
 {"fqdn":"","ip":"208.91.112.52","ns":"public","tags":"fortinet"}
 {"fqdn":"","ip":"208.91.112.53","ns":"public","tags":"fortinet"}
 {"fqdn":"g-ns-131.awsdns-03.org","ip":"205.251.192.131","ns":"public","tags":"amazon"}

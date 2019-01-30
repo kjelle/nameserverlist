@@ -84,7 +84,7 @@ ns1prod.arpa-201.azuredns-prd.org,azure
 ns2prod.arpa-201.azuredns-prd.org,azure
 ns1prod.arpa-201.azuredns-prd.info,azure
 ns2prod.arpa-201.azuredns-prd.info,azure
-ns3-201.azure-dns.org,azure,
+ns3-201.azure-dns.org,azure
 
 
 # Fortinet
